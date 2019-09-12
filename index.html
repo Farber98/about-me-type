@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html lang="es"> <!-- Indicamos el idioma con lang. En este caso, español. -->
+    <head> <!-- Generalmente la info no visible para el usuario va situada aca. Son los metadatos. -->
+        <meta charset="UTF-8"/>  <!-- Añadimos caracteres especiales utilizando UTF-8 -->
+        <title>Mi portafolio</title>    
+    </head>
+    <body> <!-- Informacion visible para el usuario, la pagina en per-se. -->
+        <header class="header">
+            <div class="header-wrapper">
+                <div class="header-logo">
+                    <img src="img/logo.png" alt="logo-portafolio" height="60"> <!-- Cargamos logo -->
+                </div>
+                <nav class="header-menu"> <!-- Menu del header. Usamos nav para organizar las pstañas de nuestro menu.-->
+                    <ul class="header-menu-wrapper">
+                        <li class="header-menu-item">
+                            <a class="header-menu-link" href="#aboutme">Sobre mi</a> <!-- href igual al #id de donde queremos ir. Se usa # para hipereferencias-->
+                        </li>
+                        <li class="header-menu-item">
+                            <a class="header-menu-link" href="#skills">Habilidades</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a class="header-menu-link" href="#workspace">Portafolio</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a class="header-menu-link" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                </nav> 
+            </div>
+        </header>
+        <!-- PORTADA. -->
+        <!-- Agregamos fondo despues en CSS. -->
+        <section class="cover">
+            <div class="cover-wrapper">
+                <div class="cover-photo-container">
+                    <img class="cover-photo" src="https://i.pinimg.com/originals/cd/31/a1/cd31a112809f351e58565192116bddc4.jpg" alt="Julian Assange" height="200">
+                </div>
+                <div class="cover-text">
+                    <h1 class="cover-title">Julian Assange</h1>
+                    <h2 class="cover-sub-title">UX UI Diseñador grafico Desarrollador Web</h2>
+                </div>
+            </div>
+        </section>
+        <!-- INFORMACION SOBRE MI. -->
+        <section id="aboutme" class="aboutme">
+            <header>
+                <h1 class="title-underline"><span>Sobre mi</span></h1>
+            </header>
+            <div class="cover-description">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid voluptas, nemo delectus ipsa corporis cumque, quisquam ea rem nam molestias, reprehenderit possimus magni debitis distinctio alias natus modi id itaque!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime unde necessitatibus ipsum minima ex, odit dignissimos dolore reprehenderit aliquid non. Voluptate, quisquam et! Unde aspernatur rerum necessitatibus, qui quo asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempore labore, cum reprehenderit accusantium suscipit assumenda ut mollitia perferendis possimus perspiciatis quod earum dolore nemo dolor omnis, consequatur illo eum?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, odit perferendis corporis unde excepturi eveniet nemo, fuga deleniti incidunt laborum itaque asperiores! Libero earum recusandae omnis pariatur veritatis provident iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iste rerum, voluptates non dolor quod, repellat id, voluptatum qui doloribus aspernatur velit laboriosam quae cumque assumenda eum dolorem fugit odio? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque corrupti reiciendis et consequatur deserunt dignissimos saepe temporibus. Ex velit sunt esse inventore, corporis numquam voluptatum amet debitis natus cumque voluptatibus.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid voluptas, nemo delectus ipsa corporis cumque, quisquam ea rem nam molestias, reprehenderit possimus magni debitis distinctio alias natus modi id itaque!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime unde necessitatibus ipsum minima ex, odit dignissimos dolore reprehenderit aliquid non. Voluptate, quisquam et! Unde aspernatur rerum necessitatibus, qui quo asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempore labore, cum reprehenderit accusantium suscipit assumenda ut mollitia perferendis possimus perspiciatis quod earum dolore nemo dolor omnis, consequatur illo eum?. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, odit perferendis corporis unde excepturi eveniet nemo, fuga deleniti incidunt laborum itaque asperiores! Libero earum recusandae omnis pariatur veritatis provident iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iste rerum, voluptates non dolor quod, repellat id, voluptatum qui doloribus aspernatur velit laboriosam quae cumque assumenda eum dolorem fugit odio? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque corrupti reiciendis et consequatur deserunt dignissimos saepe temporibus. Ex velit sunt esse inventore, corporis numquam voluptatum amet debitis natus cumque voluptatibus.</p>                
+            </div>
+            <div class="text-center">
+                <a class="btn-blue"  href="">Contactame</a>
+            </div>
+        </section>
+        <!-- HABILIDADES -->
+        <section id="skills" class="skills">
+            <header>
+                <h1 class="title-underline">Habilidades</h1>
+            </header>
+            <ul class="skills-wrapper">
+                <li class="skills-item">
+                    <div class="skills-text">
+                        <span class="skills-name">HTML</span>
+                        <span class="skills-score">85%</span>
+                    </div>
+                    <div class="skills-bar">
+                        <div class="skills-bar-fulling"></div>
+                    </div>
+                </li>
+                
+                <li class="skills-item">
+                    <div class="skills-text">
+                        <span class="skills-name">PHP</span>
+                        <span class="skills-score">70%</span>
+                    </div>
+                    <div class="skills-bar">
+                        <div class="skills-bar-fulling"></div>
+                    </div>
+                </li>
+                
+                <li class="skills-item">
+                    <div class="skills-text">
+                        <span class="skills-name">CSS</span>
+                        <span class="skills-score">50%</span>
+                    </div>
+                    <div class="skills-bar">
+                        <div class="skills-bar-fulling"></div>
+                    </div>
+                </li>
+
+                <li class="skills-item">
+                    <div class="skills-text">
+                        <span class="skills-name">Javascript</span>
+                        <span class="skills-score">30%</span>
+                    </div>
+                    <div class="skills-bar">
+                        <div class="skills-bar-fulling"></div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- PORTFOLIO -->
+        <section id="workspace" class="workspace">  
+            <header>
+                <h1 class="title-underline">Portafolio</h1>
+            </header>
+            <div class="works-wrapper">
+                
+                <article class="works-item">
+                    <div class="works-item-img-container">
+                        <img class="works-item-img" src="img/work.png" alt="Trabajo desarrollo web 1.">
+                    </div>
+                    <div class="works-item-description">
+                        <header>
+                            <h2 class="works-item-title">Desarrollo Web 1</h2>
+                        </header>
+                        <p class="works-item-client">Para <a target="_blank" href="https://www.google.com">Nuestro cliente</a></p>
+                        <div class="text-center">
+                            <a class="btn-blue" href="https://google.com" target="_blank" >Visitar Web</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="works-item">
+                        <div class="works-item-img-container">
+                            <img class="works-item-img" src="img/work.png" alt="Trabajo desarrollo web 2.">
+                        </div>
+                        <div class="works-item-description">
+                            <header>
+                                <h2 class="works-item-title">Desarrollo Web 2</h2>
+                            </header>
+                            <p class="works-item-client">Para <a target="_blank" href="https://www.bing.com">Nuestro cliente</a></p>
+                            <div class="text-center">
+                                <a class="btn-blue" target="_blank" href="https://bing.com">Visitar Web</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="works-item">
+                            <div class="works-item-img-container">
+                                <img class="works-item-img" src="img/work.png" alt="Trabajo desarrollo web 3.">
+                            </div>
+                            <div class="works-item-description">
+                                <header>
+                                    <h2 class="works-item-title">Desarrollo Web 3</h2>
+                                </header>
+                                <p class="works-item-client">Para <a target="_blank" href="https://www.yahoo.com">Nuestro cliente</a></p>
+                                <div class="text-center">
+                                    <a class="btn-blue" target="_blank" href="https://yahoo.com">Visitar Web</a>
+                                </div>
+                            </div>
+                        </article>
+
+            </div>  
+        </section>
+        <!-- CONTACTO -->
+        <section id="contact" class="contact">
+            <header>
+                <h1 class="title-underline"><span>Contacto</span></h1>
+            </header>
+            <form action="/messages.php" method="post" class="contact-form">
+                <div class="contact-row">
+                    <div class="contact-column left">
+                        <div>
+                            <label for="email">Correo</label>
+                        </div>
+                        <div>
+                            <input type="email" name="email" class="contact-form-input" id="email" required>
+                        </div>
+                    </div>
+
+                    <div class="contact-column right">
+                            <div>
+                                <label for="nombre">Nombre</label>
+                            </div>
+                            <div>
+                                <input type="text" name="nombre" class="contact-form-input" id="nombre" required>
+                            </div>
+                    </div>
+                </div>
+                <div class="contact-row">
+                    <div class="contact-column">
+                        <div>
+                            <label for="mensaje">Mensaje</label>
+                        </div>
+                        <div>
+                            <textarea name="mensaje" id="mensaje" rows="3" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <input type="submit" class="btn-blue" value="Enviar">
+                </div>
+            </form>
+        </section>
+        <!-- FOOTER -->
+            <footer class="footer">
+                <div class="footer-wrapper">
+                    <p class="footer-text">Hecho con &#x1f60e; por J.F </p>
+                </div>
+            </footer>
+    </body>
+</html>
